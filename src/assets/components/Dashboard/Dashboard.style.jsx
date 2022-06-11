@@ -9,3 +9,12 @@ export const StyleDashboard = styled.div`
   flex-direction:column;
   `
 
+export const Section = styled.div`
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 60px;
+  justify-content: space-between;
+  align-items: baseline;
+`;
+
