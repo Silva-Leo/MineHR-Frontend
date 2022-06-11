@@ -5,6 +5,7 @@ import { Div_Texto } from "./Dashboard.style";
 import { Titulo } from "./Dashboard.style";
 import { SubTitulo } from "./Dashboard.style";
 import { BotaoFiltrar } from "../Botao_Filtrar/Botao_Filtrar";
+import { Section_Graphics } from "./Dashboard.style";
 
 export const Dashboard = () => {
     return (

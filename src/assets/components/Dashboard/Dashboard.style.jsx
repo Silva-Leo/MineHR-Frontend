@@ -35,3 +35,10 @@ export const Div_Texto = styled.div`
   justify-content: space-between;
 `;
 
+export const Section_Graphics = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+`
