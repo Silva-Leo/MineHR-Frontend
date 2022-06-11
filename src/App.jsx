@@ -1,11 +1,11 @@
-import react from 'react'
+import React from 'react'
+import Layout from './assets/components/Layout/Layout.jsx'
 
-import './App.css'
+// import './App.css'
 
 function App() {
- 
   return (
-    <></>
+      <Layout/>
   )
 }
 
