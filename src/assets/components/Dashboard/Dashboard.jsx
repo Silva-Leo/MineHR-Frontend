@@ -21,6 +21,7 @@ export const Dashboard = () => {
             </Section>
             <Section_Graphics>
                 <BarraSimples />
+                <Scatter/>
             </Section_Graphics>
         </StyleDashboard>
     );
