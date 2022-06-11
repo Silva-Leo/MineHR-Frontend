@@ -6,6 +6,7 @@ import { Titulo } from "./Dashboard.style";
 import { SubTitulo } from "./Dashboard.style";
 import { BotaoFiltrar } from "../Botao_Filtrar/Botao_Filtrar";
 import { Section_Graphics } from "./Dashboard.style";
+import BarraSimples from "../Graficos/Barra_Simples/Barra_Simples";
 
 export const Dashboard = () => {
     return (
@@ -17,6 +18,9 @@ export const Dashboard = () => {
                 </Div_Texto>
                 <BotaoFiltrar />
             </Section>
+            <Section_Graphics>
+                <BarraSimples />
+            </Section_Graphics>
         </StyleDashboard>
     );
 };
