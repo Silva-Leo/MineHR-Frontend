@@ -21,10 +21,11 @@ export const Section = styled.div`
 
 export const Titulo = styled.h1`
   color: #5d405c;
+  font-size: 2rem;
 `;
 
 export const SubTitulo = styled.span`
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 200;
   letter-spacing: 1px;
 `;
@@ -47,15 +48,15 @@ export const Section_Graphics = styled.div`
 export const Section_BarraSimples = styled.div`
     display: flex;
     flex-direction: row;
-    border-radius: 10px;
-    box-shadow:0 0 10px  #e2dfdf ;
+    border-radius: 0.8rem;
+    box-shadow:0 0 0.8rem  #e2dfdf ;
     width: 48%;
 `
 
 export const Section_Scatter = styled.div`
     display: flex;
     flex-direction: row;
-    border-radius: 10px;
-    box-shadow:0 0 10px  #e2dfdf ;
+    border-radius: 0.8rem;
+    box-shadow:0 0 0.8rem  #e2dfdf ;
     width: 48%;
 `
