@@ -1,26 +1,26 @@
 import React from "react";
-import { StyleDashboard } from "./Dashboard.style";
-import { Section } from "./Dashboard.style";
-import { Div_Texto } from "./Dashboard.style";
-import { Titulo } from "./Dashboard.style";
-import { SubTitulo } from "./Dashboard.style";
+import { MainStyle } from "./Main.style";
+import { Section_Higher } from "./Main.style";
+import { Div_Texto } from "./Main.style";
+import { Titulo } from "./Main.style";
+import { SubTitulo } from "./Main.style";
 import { BotaoFiltrar } from "../Botao_Filtrar/Botao_Filtrar";
-import { Section_Graphics } from "./Dashboard.style";
+import { Section_Graphics } from "./Main.style";
 import BarraSimples from "../Graficos/Barra_Simples/Barra_Simples";
 import Scatter from "../Graficos/Scatter/Scatter";
-import { Section_BarraSimples } from "./Dashboard.style";
-import { Section_Scatter } from "./Dashboard.style";
+import { Section_BarraSimples } from "./Main.style";
+import { Section_Scatter } from "./Main.style";
 
-export const Dashboard = () => {
+export const Main = () => {
     return (
-        <StyleDashboard>
-            <Section>
+        <MainStyle>
+            <Section_Higher>
                 <Div_Texto>
                     <Titulo>Dashboard</Titulo>
                     <SubTitulo>Desafio Técnico Frontend</SubTitulo>
                 </Div_Texto>
                 <BotaoFiltrar />
-            </Section>
+            </Section_Higher>
             <Section_Graphics>
                 <Section_BarraSimples>
                     <BarraSimples />
@@ -29,6 +29,6 @@ export const Dashboard = () => {
                     <Scatter />
                 </Section_Scatter>
             </Section_Graphics>
-        </StyleDashboard>
+        </MainStyle>
     );
 };

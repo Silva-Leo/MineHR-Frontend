@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-export const StyleDashboard = styled.div`
+export const MainStyle = styled.div`
   display: flex;
   width: 100%;
   height: 100vh;
@@ -9,7 +9,7 @@ export const StyleDashboard = styled.div`
   flex-direction:column;
   `
 
-export const Section = styled.div`
+export const Section_Higher = styled.div`
   display: flex;
   width: 100%;
   flex-direction: row;
