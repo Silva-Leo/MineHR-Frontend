@@ -1,3 +1,8 @@
+import { createGlobalStyle } from "styled-components";
+
+
+export default createGlobalStyle`
+
 *,
 *::after,
 *::before {
@@ -23,3 +28,5 @@ code {
 button {
   cursor: pointer;
 }
+
+`

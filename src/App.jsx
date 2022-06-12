@@ -1,12 +1,16 @@
-import React from 'react'
-import Layout from './assets/components/Layout/Layout.jsx'
+import React from "react";
+import GlobalStyle from "./style/Global.style.jsx";
+import Layout from "./components/Layout/Layout.jsx";
 
 // import './App.css'
 
 function App() {
-  return (
-      <Layout/>
-  )
+    return (
+        <>
+            <GlobalStyle />
+            <Layout />
+        </>
+    );
 }
 
-export default App
+export default App;
