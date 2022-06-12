@@ -163,6 +163,8 @@ class Scatter extends React.Component {
                 },
                 chart: {
                     type: "scatter",
+                    redrawOnParentResize: true,
+                    redrawOnWindowResize: true,
                     toolbar: {
                         show: true,
                         offsetX: -20,
@@ -201,7 +203,7 @@ class Scatter extends React.Component {
                     series={this.state.series}
                     type="scatter"
                     height="290"
-                    width="620"
+                    width="200%"
                 />
             </div>
         );

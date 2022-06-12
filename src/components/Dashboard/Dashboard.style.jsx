@@ -49,6 +49,7 @@ export const Section_BarraSimples = styled.div`
     flex-direction: row;
     border-radius: 10px;
     box-shadow:0 0 10px  #e2dfdf ;
+    width: 48%;
 `
 
 export const Section_Scatter = styled.div`
@@ -56,4 +57,5 @@ export const Section_Scatter = styled.div`
     flex-direction: row;
     border-radius: 10px;
     box-shadow:0 0 10px  #e2dfdf ;
+    width: 48%;
 `

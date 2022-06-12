@@ -23,6 +23,8 @@ class BarraSimples extends Component {
                 },
                 chart: {
                     id: "basic-bar",
+                    redrawOnParentResize: true,
+                    redrawOnWindowResize: true,
                     toolbar: {
                         show: true,
                         offsetX: -20,
@@ -80,7 +82,7 @@ class BarraSimples extends Component {
                                 options={this.state.options}
                                 series={this.state.series}
                                 type="bar"
-                                width="620"
+                                width="200%"
                                 height="290"
                             />
                     </div>
