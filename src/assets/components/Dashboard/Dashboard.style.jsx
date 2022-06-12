@@ -3,9 +3,9 @@ import styled from "styled-components";
 
 export const StyleDashboard = styled.div`
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  padding: 3% 3%;
+  padding: 2% 2%;
   flex-direction:column;
   `
 
@@ -13,9 +13,10 @@ export const Section = styled.div`
   display: flex;
   width: 100%;
   flex-direction: row;
-  height: 60px;
+  height: 30%;
   justify-content: space-between;
   align-items: baseline;
+  padding-bottom: 3%;
 `;
 
 export const Titulo = styled.h1`
@@ -32,16 +33,16 @@ export const Div_Texto = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:center;
 `;
 
 export const Section_Graphics = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
-    height: 100%;
-    align-items: center;
+    height: 100vh;
+    align-items:flex-start;
 `
 export const Section_BarraSimples = styled.div`
     display: flex;

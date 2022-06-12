@@ -66,7 +66,7 @@ class BarraSimples extends Component {
                                 options={this.state.options}
                                 series={this.state.series}
                                 type="bar"
-                                width="600"
+                                width="620"
                                 height="290"
                             />
                     </div>
