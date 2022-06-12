@@ -8,6 +8,8 @@ import { BotaoFiltrar } from "../Botao_Filtrar/Botao_Filtrar";
 import { Section_Graphics } from "./Dashboard.style";
 import BarraSimples from "../Graficos/Barra_Simples/Barra_Simples";
 import Scatter from "../Graficos/Scatter/Scatter";
+import { Section_BarraSimples } from "./Dashboard.style";
+import { Section_Scatter } from "./Dashboard.style";
 
 export const Dashboard = () => {
     return (
@@ -20,8 +22,12 @@ export const Dashboard = () => {
                 <BotaoFiltrar />
             </Section>
             <Section_Graphics>
-                <BarraSimples />
-                <Scatter/>
+                <Section_BarraSimples>
+                    <BarraSimples />
+                </Section_BarraSimples>
+                <Section_Scatter>
+                    <Scatter />
+                </Section_Scatter>
             </Section_Graphics>
         </StyleDashboard>
     );

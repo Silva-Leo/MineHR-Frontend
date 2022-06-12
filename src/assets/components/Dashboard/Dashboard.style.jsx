@@ -41,4 +41,18 @@ export const Section_Graphics = styled.div`
     justify-content: space-around;
     width: 100%;
     height: 100%;
+    align-items: center;
+`
+export const Section_BarraSimples = styled.div`
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow:0 0 10px  #e2dfdf ;
+`
+
+export const Section_Scatter = styled.div`
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow:0 0 10px  #e2dfdf ;
 `
