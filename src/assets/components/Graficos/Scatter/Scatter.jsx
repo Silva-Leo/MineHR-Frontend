@@ -118,24 +118,35 @@ class Scatter extends React.Component {
             ],
             options: {
                 title: {
-                    text:"Scatter",
-                    align: 'top',
+                    text: "Scatter",
+                    align: "top",
                     margin: 30,
                     offsetX: -240,
                     offsetY: 0,
                     floating: true,
                     style: {
-                      fontSize:  '16px',
-                      fontWeight:  'bold',
-                      fontFamily:  undefined,
-                      color:  '#5d405c'
+                        fontSize: "16px",
+                        fontWeight: "bold",
+                        fontFamily: undefined,
+                        color: "#5d405c",
                     },
                 },
                 chart: {
                     type: "scatter",
                     toolbar: {
-                        show: false,
-                    }
+                        show: true,
+                        offsetX: -20,
+                        offsetY: 20,
+                        tools: {
+                            download: true,
+                            selection: false,
+                            zoom: false,
+                            zoomin: false,
+                            zoomout: false,
+                            pan: false,
+                            reset:false
+                        },
+                    },
                 },
                 xaxis: {
                     tickAmount: 10,

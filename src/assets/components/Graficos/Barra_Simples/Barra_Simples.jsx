@@ -23,6 +23,20 @@ class BarraSimples extends Component {
                 },
                 chart: {
                     id: "basic-bar",
+                    toolbar: {
+                        show: true,
+                        offsetX: -20,
+                        offsetY: 20,
+                        tools: {
+                            download: true,
+                            selection: false,
+                            zoom: false,
+                            zoomin: false,
+                            zoomout: false,
+                            pan: false,
+                            reset:false
+                        },
+                    },
                 },
                 plotOptions: {
                     bar: {
