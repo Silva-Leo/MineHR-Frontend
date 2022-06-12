@@ -1,4 +1,4 @@
-// Arquivo de medidas responsividade
+// Arquivo de medidas - responsividade
 
 const sizes = {
     mobileS: "320px",
