@@ -203,7 +203,7 @@ class Scatter extends React.Component {
                     series={this.state.series}
                     type="scatter"
                     height="290"
-                    width="200%"
+                    width="590"
                 />
             </div>
         );

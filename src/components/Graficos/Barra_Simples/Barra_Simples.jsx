@@ -82,7 +82,7 @@ class BarraSimples extends Component {
                                 options={this.state.options}
                                 series={this.state.series}
                                 type="bar"
-                                width="200%"
+                                width="590"
                                 height="290"
                             />
                     </div>
