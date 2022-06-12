@@ -22,12 +22,13 @@ export const Section = styled.div`
 export const Titulo = styled.h1`
   color: #5d405c;
   font-size: 2rem;
+  padding-bottom: 3%;
 `;
 
 export const SubTitulo = styled.span`
   font-size: 1rem;
   font-weight: 200;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 `;
 
 export const Div_Texto = styled.div`
