@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { devices } from "../../style/device.responsive";
 
 export const MainStyle = styled.div`
   display: flex;
@@ -13,7 +14,7 @@ export const Section_Higher = styled.div`
   display: flex;
   width: 100%;
   flex-direction: row;
-  height: 30%;
+  height: 20%;
   justify-content: space-between;
   align-items: baseline;
   padding-bottom: 3%;
@@ -45,6 +46,28 @@ export const Section_Graphics = styled.div`
     width: 100%;
     height: 100vh;
     align-items:flex-start;
+
+    @media ${devices.mobileL}{  //425px
+    flex-direction: column;
+    align-items: center;
+  }
+
+    @media ${devices.tablet}{  //768px
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media ${devices.laptop}{  //1024px
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  @media ${devices.laptopHD}{  //1280px
+    flex-direction: row;
+    align-items: flex-start;
+
+  }
 `
 export const Section_BarraSimples = styled.div`
     display: flex;
@@ -52,6 +75,30 @@ export const Section_BarraSimples = styled.div`
     border-radius: 0.8rem;
     box-shadow:0 0 0.8rem  #e2dfdf ;
     width: 48%;
+
+    @media ${devices.mobileL}{   //425px
+      width: fit-content;
+      justify-content: center;
+      margin-bottom: 5%;
+    }
+
+    @media ${devices.tablet}{   //768px
+      width: fit-content;
+      justify-content: center;
+      margin-bottom: 5%;
+    }
+
+    @media ${devices.laptop}{   //1024px
+      width: fit-content;
+      justify-content: center;
+      margin-bottom: 5%;
+    }
+
+    @media ${devices.laptopHD}{   //1280px
+      width: fit-content;
+      justify-content: center;
+      margin-bottom: 5%;
+    }
 `
 
 export const Section_Scatter = styled.div`
@@ -60,4 +107,29 @@ export const Section_Scatter = styled.div`
     border-radius: 0.8rem;
     box-shadow:0 0 0.8rem  #e2dfdf ;
     width: 48%;
+
+
+    @media ${devices.mobileL}{   //425px
+      width: fit-content;
+      justify-content: center;
+      margin-bottom: 5%;
+    }
+
+    @media ${devices.tablet}{   //768px
+      width: fit-content;
+      justify-content: center;
+      margin-bottom: 5%;
+    }
+
+    @media ${devices.laptop}{   //1024px
+      width: fit-content;
+      justify-content: center;
+      margin-bottom: 5%;
+    }
+
+    @media ${devices.laptopHD}{   //1280px
+      width: fit-content;
+      justify-content: center;
+      margin-bottom: 5%;
+    }
 `
