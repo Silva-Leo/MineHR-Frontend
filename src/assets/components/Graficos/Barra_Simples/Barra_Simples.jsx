@@ -10,8 +10,8 @@ class BarraSimples extends Component {
                 title: {
                     text:"Barras",
                     align: 'top',
-                    margin: 0,
-                    offsetX: -200,
+                    margin: 30,
+                    offsetX: -240,
                     offsetY: 0,
                     floating: true,
                     style: {
@@ -66,8 +66,8 @@ class BarraSimples extends Component {
                                 options={this.state.options}
                                 series={this.state.series}
                                 type="bar"
-                                width="500"
-                                height="300"
+                                width="600"
+                                height="290"
                             />
                     </div>
                 </div>

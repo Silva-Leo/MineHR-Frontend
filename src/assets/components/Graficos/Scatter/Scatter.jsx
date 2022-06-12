@@ -120,8 +120,8 @@ class Scatter extends React.Component {
                 title: {
                     text:"Scatter",
                     align: 'top',
-                    margin: 0,
-                    offsetX: -200,
+                    margin: 30,
+                    offsetX: -240,
                     offsetY: 0,
                     floating: true,
                     style: {
@@ -133,6 +133,9 @@ class Scatter extends React.Component {
                 },
                 chart: {
                     type: "scatter",
+                    toolbar: {
+                        show: false,
+                    }
                 },
                 xaxis: {
                     tickAmount: 10,
@@ -156,8 +159,8 @@ class Scatter extends React.Component {
                     options={this.state.options}
                     series={this.state.series}
                     type="scatter"
-                    height="300"
-                    width="500"
+                    height="290"
+                    width="600"
                 />
             </div>
         );
