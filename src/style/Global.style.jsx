@@ -20,7 +20,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#f6f6f6b4 ;
+  background-color:#f6f6f6 ;
   font-size: 1.6rem;    //!*16px
 }
 

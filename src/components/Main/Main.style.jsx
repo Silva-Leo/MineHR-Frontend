@@ -7,7 +7,7 @@ export const MainStyle = styled.div`
   height: 100vh;
   padding: 2% 2%;
   flex-direction:column;
-  `
+  `;
 
 export const Section_Higher = styled.div`
   display: flex;
@@ -71,9 +71,10 @@ export const Section_Graphics = styled.div`
 export const Section_BarraSimples = styled.div`
     display: flex;
     flex-direction: row;
-    border-radius: 0.8rem;
+    border-radius: 0.6rem;
     box-shadow:0 0 0.8rem  #e2dfdf ;
     width: 50%;
+    background-color: #FFF;
 
     @media ${devices.mobileL}{   //425px
       width: fit-content;
@@ -94,7 +95,13 @@ export const Section_BarraSimples = styled.div`
     }
 
     @media ${devices.laptopHD}{   //1280px
-      width: fit-content;
+      width: 49%;
+      justify-content: center;
+      margin-bottom: 5%;
+    }
+
+    @media ${devices.laptopL}{   //1440px
+      width: 49%;
       justify-content: center;
       margin-bottom: 5%;
     }
@@ -103,9 +110,10 @@ export const Section_BarraSimples = styled.div`
 export const Section_Scatter = styled.div`
     display: flex;
     flex-direction: row;
-    border-radius: 0.8rem;
-    box-shadow:0 0 0.8rem  #e2dfdf ;
+    border-radius: 0.6rem;
+    box-shadow:0 0 0.8rem #e2dfdf ;
     width: 50%;
+    background-color: #FFF;
 
 
     @media ${devices.mobileL}{   //425px
@@ -127,7 +135,13 @@ export const Section_Scatter = styled.div`
     }
 
     @media ${devices.laptopHD}{   //1280px
-      width: fit-content;
+      width: 49%;
+      justify-content: center;
+      margin-bottom: 5%;
+    }
+
+    @media ${devices.laptopL}{   //1440px
+      width: 49%;
       justify-content: center;
       margin-bottom: 5%;
     }
