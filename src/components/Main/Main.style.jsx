@@ -73,7 +73,7 @@ export const Section_BarraSimples = styled.div`
     flex-direction: row;
     border-radius: 0.8rem;
     box-shadow:0 0 0.8rem  #e2dfdf ;
-    width: 48%;
+    width: 50%;
 
     @media ${devices.mobileL}{   //425px
       width: fit-content;
@@ -105,7 +105,7 @@ export const Section_Scatter = styled.div`
     flex-direction: row;
     border-radius: 0.8rem;
     box-shadow:0 0 0.8rem  #e2dfdf ;
-    width: 48%;
+    width: 50%;
 
 
     @media ${devices.mobileL}{   //425px
